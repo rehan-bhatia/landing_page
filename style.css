@@ -1,0 +1,71 @@
+html, body {
+	height: 100%
+	width: 100%;
+	margin: 0px;
+	background-color: rgb(40,41,35); 
+}
+
+img {
+	height: 250px;
+	width: 300px;
+	filter: grayscale(100%);
+	transition: all 0.5s;
+}
+
+img:hover {
+	transform: scale(1.05);
+	filter: none;
+}
+.flex1 {
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
+.flex2 {
+	display: flex;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.flex3 {
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
+.container {
+	background-color: rgb(255,69,87);
+	border: solid 5px rgb(120,0,147);
+	border-radius: 20px;
+	width: 600px;
+	height: 250px;
+	text-align: center;
+	font-family: 'IM Fell French Canon SC', serif;
+}
+
+p {
+	font-family: Times New Roman;
+	
+}
+.container2 {
+	display: flex;
+	justify-content: space-around;
+}
+
+.btn {
+	animation-play-state: paused;
+	width: 180px;
+	border-radius: 20px;
+	transition: all 0.5s;
+}
+
+.btn:hover {
+	text-decoration: underline;
+	transform: scale(1.1);
+}
